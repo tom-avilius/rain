@@ -12,9 +12,14 @@ const { app, ipcMain, BrowserWindow } = require('electron');
 // the app is initialized and ready.
 const rain = () => {
 
-    const rainPrimaryWindow = new BrowserWindow();
+    const rainPrimaryWindow = new BrowserWindow( {
+
+        frame: false,
+    });
 
     rainPrimaryWindow.loadFile('./assets/html/index.html');
+
+    rainPrimaryWindow.setMenu(null);
 }
 
 // actual start of electron app

@@ -1,0 +1,17 @@
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+header {
+
+    margin: 6px 5px;
+    -webkit-app-region: drag;
+}
+
+header span:hover {
+
+    cursor: pointer;
+}
