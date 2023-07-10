@@ -7,11 +7,11 @@
 
 header {
 
-    margin: 6px 5px;
+    height: 10px;
     -webkit-app-region: drag;
 }
 
-header span:hover {
+#menu-container span:hover {
 
     cursor: pointer;
 }
