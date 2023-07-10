@@ -36,8 +36,6 @@ const rain = () => {
     // listening to the menu-click channel to know when the menu button is clicked
     ipcMain.on('menu-click', (event, flag) => {
 
-        console.log(event.sender);
-
         if (flag) {
 
             console.log('Why click menu??');
